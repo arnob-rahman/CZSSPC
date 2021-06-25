@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+
+h1,h2,h3,h4,h5,h6{
+   color: white;
+}
+.section-title h3{
+     font-weight: bolder;
+     margin-bottom:0;
+}
+.hr{
+  border-top: 5px dotted white;
+  border-bottom: none;
+ 
+  width: 50px;
+  margin:0 auto;
+}
+
+/* header start here  */
+header{
+    background-image:url(images/banner4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color:rgba(0,0,0,0.7)
+}
+.navbar-icon{
+   color:white;
+}
+.navbar-brand img{
+    width:60px;
+    height: auto;
+    border: 15px white;
+ 
+}
+.navbar-brand{
+    border-radius: 50%;
+    border:white 3px solid;
+    margin-left: 14px;
+}
+.nav-link{
+   color:white;
+   margin:10px;
+   border-radius:10px;
+   transition: 0.4s;
+  
+}
+.nav-link:hover{
+    background-color:rgb(250, 245, 245 ,0.6) ;
+    transform:scale(1.1);
+    color:black;
+}
+
+.banner-container{
+    height: 100vh;
+    width:100vh;
+}
+.banner-container h1{
+    font-size:3.5rem;
+    padding:10px 20px;
+    font-family:'Handlee', cursive;
+    background-color: rgb(81, 81, 197,0.8);
+    border-radius: 5px;
+}
+.scr1{
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+}
+ .dotted-hr{
+     border: dotted 6px white;
+     border-bottom:none;
+     margin:20px auto;
+     width:70px;
+ }
+ .location-form-contact{
+     width: 100%;
+     color:white;
+     background-color: rgb(34, 169, 169); 
+     text-align: center;
+ }
+ .form input,textarea{
+    width:100%;
+    padding:5px;
+    text-align: center;
+    font-size: 1rem;
+    border:none;
+    border-radius: 10px;
+    resize: none;
+ }
+ .form button{
+    border:none;
+    background-color: rgb(4, 48, 4);
+    color:white;
+    border-radius:12px;
+    padding:8px;
+    width:100px;
+    margin:10px;
+   cursor:pointer;
+   display: inline-block;
+   
+}
+.contact-link{
+    position: relative;
+}
+.contact button{
+    width: 150px;
+    text-align: center;
+   
+}
+.media-buttons{
+    position: absolute;
+    left:50%;
+      top:30%;
+    width: 120px;
+    transform: translate(-50%,-10%);
+    
+}
+.media-buttons .btn{
+    border:none;
+    cursor:pointer;
+    border-radius: 100%;
+    font-size:28px;
+    padding:5px;
+    margin:10px;
+    width:50px;
+    background-color:white;
+    text-align: center;
+    }
+.location-form-contact::after{
+    content: '';
+    display: table;
+    clear:both;
+    
+}
+ 
+footer{
+    background-color: black;
+    padding: 2% 10%;
+}
